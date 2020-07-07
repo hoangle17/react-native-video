@@ -37,6 +37,7 @@ const App: () => React$Node = () => {
         {/* <Icon name = "search" size={25}></Icon> */}
       </View>
       <View style={styles.body}>
+        {/* show items video */}
         <FlatList
           data={data.items}
           renderItem={video => <VideoItem video={video.item} />}
