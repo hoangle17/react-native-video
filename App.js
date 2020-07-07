@@ -34,8 +34,8 @@ const App: () => React$Node = () => {
     <View style={styles.container}>
       <View style={styles.navBar}>
         <Image
-          source={require('./app/images/logo.jpg')}
-          style={{width: 100, height: 30}}
+          source={require('./app/images/logo.png')}
+          style={{width: 98, height: 22}}
         />
         {/* <AntDesign name="search1" size={24} color="black" /> */}
         {/* <Icon name="search" size={25} /> */}
